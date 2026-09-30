@@ -45,7 +45,7 @@ header{
 }
 
 img{
-    width: 100%;
+    width: 90px;
 }
 
 header a {
@@ -117,7 +117,7 @@ header .highlight a{
 #article{
     padding: 30px;
     background:#35424a ;
-
+    margin-bottom: 18px;
 }
 
 #article h1{
@@ -137,12 +137,13 @@ header .highlight a{
     padding: 8px;
     width: 230px;
     height: 40px;
+    border: none;
 }
 
 /* boxes ID */
 
 #boxes{
-    border: red 3px solid;
+    /* border: red 3px solid; */
     margin-top: 20px;
     
 }
@@ -152,10 +153,21 @@ header .highlight a{
     flex-direction: row;
 }
 #boxes .box{
-    border: yellow 3px solid;
+    /* border: yellow 3px solid; */
     width: 30%;
     text-align: center;
     padding: 20px;
 }
 
 
+#footer{
+    padding: 30px;
+    background: #a8491d;
+    text-align: center;
+    color: #fff;
+
+}
+
+#footer p{
+    font-size: 18px;
+}
