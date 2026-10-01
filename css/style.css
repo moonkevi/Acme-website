@@ -8,6 +8,8 @@ body{
     font-size: 15px;
     line-height: 1.5;
     background-color: #fff;
+    width: 100%;
+    height: 100%;
 }
 
 .container{
@@ -171,3 +173,30 @@ header .highlight a{
 #footer p{
     font-size: 18px;
 }
+
+#sidebar{
+    width: 30%;
+    margin-top: 15px;
+    float: right;
+    color: white;
+    padding: 25px;
+    background: #35424a;
+}
+
+#maim-col{
+    float: left;
+    width: 55%;
+    margin-bottom: 35px;
+}
+
+#maim-col .dark{
+    background: #35424a;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#maim-col .page-title{
+    text-transform: capitalize;
+}
+
