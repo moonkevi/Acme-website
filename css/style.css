@@ -200,3 +200,57 @@ header .highlight a{
     text-transform: capitalize;
 }
 
+/* services section */
+
+#our-services{
+    margin: 30px;
+    width: 40%;
+    /* float: left; */
+
+}
+
+#our-services h3{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.info-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-boxes h4{
+    text-transform: capitalize;
+    margin-bottom: 10px ;
+}
+
+.Box-1{
+    border: 3px solid  rgb(70, 70, 110);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+#form-guide{
+    width: 30%;
+    height: 40%;
+    margin-top: 15px;
+    float: right;
+    color: white;
+    padding: 25px;
+    background: #35424a;
+}
+form input, form textarea{
+    display: block;
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px
+}
